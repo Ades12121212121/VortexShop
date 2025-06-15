@@ -1,1 +1,127 @@
-
+{
+  "lastUpdated": "2025-06-14T12:00:00Z",
+  "totalApps": 3,
+  "categories": [
+    "Games",
+    "Utilities",
+    "Entertainment",
+    "Development",
+    "Productivity"
+  ],
+  "apps": [
+    {
+      "id": "minecraft-launcher",
+      "name": "Minecraft Launcher",
+      "description": "Launcher oficial de Minecraft con todas las versiones disponibles",
+      "category": "Games",
+      "version": "2.0.0",
+      "publisher": "Mojang",
+      "releaseDate": "2025-05-01",
+      "size": 45678912,
+      "rating": 4.8,
+      "downloads": 1500000,
+      "verified": true,
+      "urls": {
+        "download": "https://github.com/your-username/vortex-apps/releases/download/minecraft-2.0.0/minecraft-launcher.zip",
+        "website": "https://www.minecraft.net",
+        "documentation": "https://help.minecraft.net"
+      },
+      "images": {
+        "icon": "https://raw.githubusercontent.com/your-username/vortex-apps/main/icons/minecraft.png",
+        "logo": "https://raw.githubusercontent.com/your-username/vortex-apps/main/logos/minecraft.png",
+        "screenshots": [
+          "https://raw.githubusercontent.com/your-username/vortex-apps/main/screenshots/minecraft/1.png",
+          "https://raw.githubusercontent.com/your-username/vortex-apps/main/screenshots/minecraft/2.png"
+        ]
+      },
+      "requirements": {
+        "os": ["windows"],
+        "processor": "Intel Core i3 / AMD Athlon II",
+        "ram": "4GB",
+        "storage": "1GB"
+      },
+      "tags": ["sandbox", "multiplayer", "crafting"],
+      "features": [
+        "Soporte multijugador",
+        "Mods personalizados",
+        "Actualización automática"
+      ]
+    },
+    {
+      "id": "vscode",
+      "name": "Visual Studio Code",
+      "description": "Editor de código potente y ligero",
+      "category": "Development",
+      "version": "1.80.0",
+      "publisher": "Microsoft",
+      "releaseDate": "2025-06-01",
+      "size": 98765432,
+      "rating": 4.9,
+      "downloads": 2000000,
+      "verified": true,
+      "urls": {
+        "download": "https://github.com/your-username/vortex-apps/releases/download/vscode-1.80.0/vscode-setup.zip",
+        "website": "https://code.visualstudio.com",
+        "documentation": "https://code.visualstudio.com/docs"
+      },
+      "images": {
+        "icon": "https://raw.githubusercontent.com/your-username/vortex-apps/main/icons/vscode.png",
+        "logo": "https://raw.githubusercontent.com/your-username/vortex-apps/main/logos/vscode.png",
+        "screenshots": [
+          "https://raw.githubusercontent.com/your-username/vortex-apps/main/screenshots/vscode/1.png",
+          "https://raw.githubusercontent.com/your-username/vortex-apps/main/screenshots/vscode/2.png"
+        ]
+      },
+      "requirements": {
+        "os": ["windows", "mac", "linux"],
+        "processor": "1.6 GHz",
+        "ram": "2GB",
+        "storage": "500MB"
+      },
+      "tags": ["editor", "programming", "debugging"],
+      "features": [
+        "IntelliSense",
+        "Debugging integrado",
+        "Control de versiones Git"
+      ]
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "description": "Chat de voz y texto para gamers",
+      "category": "Entertainment",
+      "version": "1.0.9011",
+      "publisher": "Discord Inc.",
+      "releaseDate": "2025-06-10",
+      "size": 72345678,
+      "rating": 4.7,
+      "downloads": 3000000,
+      "verified": true,
+      "urls": {
+        "download": "https://github.com/your-username/vortex-apps/releases/download/discord-1.0.9011/discord-setup.zip",
+        "website": "https://discord.com",
+        "documentation": "https://support.discord.com"
+      },
+      "images": {
+        "icon": "https://raw.githubusercontent.com/your-username/vortex-apps/main/icons/discord.png",
+        "logo": "https://raw.githubusercontent.com/your-username/vortex-apps/main/logos/discord.png",
+        "screenshots": [
+          "https://raw.githubusercontent.com/your-username/vortex-apps/main/screenshots/discord/1.png",
+          "https://raw.githubusercontent.com/your-username/vortex-apps/main/screenshots/discord/2.png"
+        ]
+      },
+      "requirements": {
+        "os": ["windows", "mac", "linux"],
+        "processor": "Any",
+        "ram": "2GB",
+        "storage": "200MB"
+      },
+      "tags": ["chat", "voice", "gaming", "communities"],
+      "features": [
+        "Chat de voz y texto",
+        "Compartir pantalla",
+        "Servidores personalizados"
+      ]
+    }
+  ]
+}
