@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "releaseDate": "2025-06-14",
+  "minimumVersion": "0.9.0",
+  "updateUrl": "https://github.com/your-username/VortexShop/releases/download/v1.0.0/VortexShop-1.0.0.exe",
+  "notes": [
+    "Versión inicial de VortexShop",
+    "Sistema de autenticación implementado",
+    "Catálogo de aplicaciones disponible"
+  ],
+  "isRequired": false,
+  "platform": {
+    "win32-x64": {
+      "signature": "sha256-hash-here",
+      "size": 45678912
+    }
+  }
+}
